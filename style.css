@@ -1,0 +1,43 @@
+body{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: beige;
+}
+
+header{
+    position: fixed;
+    background-color: white;
+    height: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#firma {
+    float: left;
+    height :120px;
+    width: auto;
+    padding-right: 15px;
+}
+
+#titulo{
+    position: relative;
+    float: left;
+    font-family: 'Bafora';
+    font-size: 50px;
+    
+}
+
+@media (max-width: 800px){
+
+}
+
+@font-face {
+    font-family: 'Bafora';
+    src: url(fuentes/Bafora\ Regular\ Demo.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
