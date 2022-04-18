@@ -81,13 +81,14 @@ header{
     display: flex;
     justify-content: center;
     align-content: center;
+    right: 11px;
 }
 
 #firma {
     float: left;
     height :120px;
     width: auto;
-    padding-right: 10px;
+    padding-right: 5px;
 }
 
 #lineaVerticalPrincipal {
@@ -114,8 +115,8 @@ header{
     float: left;
     font-family: 'Bafora';
     font-size: 50px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
     top:25px;
 }
 
