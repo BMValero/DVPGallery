@@ -42,8 +42,7 @@ nav {
     padding-right: 10px;
     margin-bottom: 7px;
     background-color: black;
-    opacity: 70%;
-    border-radius: 15px 15px;
+    border-radius:0px;
     right:60px;
     width: 100px;
 }
@@ -56,6 +55,7 @@ nav {
 
 #menu-vertical li:hover{
     opacity: 100%;
+    border-radius: 15px 15px;
 }
 
 #icono-menu{
@@ -63,11 +63,13 @@ nav {
     width: 50px;
     height: auto;
     margin-bottom: 7px;
+    border : 3px solid black;
+    border-radius: 10px 10px;
 }
 
 header{
     position: fixed;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(218, 187, 86, 0.76);
     height: 120px;
     width: 100%;  
     z-index: 1;
@@ -97,12 +99,22 @@ header{
     opacity: 0.5;
 }
 
+#lineaVerticalSecundaria{
+    display: none;
+    position: relative;
+    margin-top: 10px;
+    float: left;
+    border-left: 2px solid black;
+    height: 100px;
+    opacity: 0.5;
+}
+
 #tituloPrincipal{
     position: relative;
     float: left;
     font-family: 'Bafora';
     font-size: 50px;
-    padding-right: 25px;
+    padding-right: 20px;
     padding-left: 20px;
     top:25px;
 }
@@ -249,6 +261,11 @@ a{
         top:25px;
     }
 
+    #icono-menu{
+        width:35px;
+        top:7px;
+    }
+
     header{
         height: 100px;
     }
@@ -258,6 +275,12 @@ a{
     }
 
     #lineaVerticalPrincipal {
+        height: 70px;
+        top : 5px;
+    }
+
+    #lineaVerticalSecundaria{
+        display: block;
         height: 70px;
         top : 5px;
     }
