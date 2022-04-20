@@ -417,7 +417,7 @@ main{
         width:300px;
         display:grid;
         justify-items: center;
-        left:40px;
+        left:50px;
         margin-bottom: 70px;
     }
 
@@ -435,7 +435,7 @@ main{
     }
 
     .asideSeccionesHorizontales{
-        lefT:0px;
+        lefT:30px;
         width: 300px;
         margin-top: -150px;
     }
