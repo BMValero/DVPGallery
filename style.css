@@ -362,9 +362,80 @@ main{
     }
 }
 
-@media (max-width:600px) and (orientation: landscape){
+@media (max-width:800px) and (orientation: landscape){
     header{
         position: relative;
+    }
+
+    nav{
+        top:25px;
+    }
+
+    #icono-menu{
+        width:35px;
+        top:7px;
+    }
+
+    header{
+        height: 100px;
+    }
+
+    #contenidoHeader{
+        right:35px;
+    }
+
+    #lineaVerticalPrincipal {
+        height: 70px;
+        top : 5px;
+    }
+
+    #lineaVerticalSecundaria{
+        display: block;
+        height: 70px;
+        top : 5px;
+    }
+
+    #firma{
+        height :100px;
+        width: auto;
+    }
+
+    #tituloPrincipal{
+        font-size: 40px;
+        top:25px;
+    }
+
+    main{
+        margin-top: -170px;
+    }
+
+    section img{
+        height: 380px;
+    }
+
+    section{
+        margin-bottom: -170px;
+    }
+
+    .seccionHorizontal{
+        left:20px;
+        display: flex;
+        width: 650px;
+        margin-top: -270px;
+    }
+
+    .seccionHorizontal img{
+        height: 280px;
+    }
+
+    .asideSeccionesHorizontales{
+        lefT:0px;
+        top:15px;
+    }
+
+    .lineaVerticalSeccionesHorizontales{
+        display: flex;
+        height: 150px;
     }
 }
 
